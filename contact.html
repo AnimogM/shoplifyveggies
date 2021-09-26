@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <i class="bi bi-cart4"></i>
+                  <span class="fw-bold">ShopVeggies</span>
+              </a>
+              <!-- toggler -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- nav links -->
+              <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNav">
+                <ul class="navbar-nav text-white">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item d-md-none">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item ms-2 d-none d-md-inline">
+                    <a class="nav-link btn btn-success" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-bg py-5">
+        <div class="container">
+            <h2 class="text-center text-white">NEED ANY HELP?</h2>
+            <P class="lead text-center">Send us a message!</P>
+            <form class="row justify-content-center">
+                <div class="col-md-8">
+                    <label for="first name">First name</label>
+                    <input class="input-group py-2 mb-4" type="text" name="first name" id="first name">
+        
+                    <label for="last name">Last name</label>
+                    <input class="input-group py-2 mb-4" type="text" name="last name" id="last name">
+        
+                    <label for="email">Email</label>
+                    <input class="input-group py-2 mb-4" type="email" name="email" id="email" required>
+        
+                    <label for="message">Message</label>
+                    <textarea class="input-group py-2" name="message" id="message" cols="30" rows="5"></textarea>
+                    <div class="text-center "><button class="btn p-2 text-white bg-success w-50 mt-5 rounded-pill" type="submit">Submit</button></div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-5">
+        <div class="container">
+            <p class="lead">follow us on social media</p>
+            <a href="#"><img class="img-fluid pe-3" src="img/facebook.svg" alt="facebook"></a>
+            <a href="#"><img class="img-fluid pe-3" src="img/twitter.svg" alt="twitter"></a>
+            <a href="#"><img class="img-fluid" src="img/instagram.svg" alt="instagram"></a>
+        </div>
+    </footer>
+    <script src="script/bootstrap.min.js"></script>
+</body>
+</html>

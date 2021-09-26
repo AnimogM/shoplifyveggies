@@ -1,0 +1,67 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* styles for landing page */
+
+.hero{
+    background-image: url(../img/bg-hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+}
+
+.menu-section{
+    padding-block: 70px;
+}
+
+.flower-section, .icecream-section, .subscribe-section{
+    padding-block: 70px;
+    background-color: rgb(243, 196, 65);
+}
+
+.brand{
+    width: 210px !important;
+}
+
+.bg-veggies{
+    background-image: url(../img/veggies.jfif);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: contain;
+}
+
+.organic-section{
+    background-image: url(../img/bg-hfv.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-change {
+    background-color: rgb(243, 196, 65) !important; 
+}
+
+/* styles for contact page */
+
+.contact-bg{
+    background-color: rgb(245, 207, 101) !important; 
+}
+
+/* styles for about page */
+.abt-hero{
+    background-color: rgb(245, 207, 101) !important; 
+    padding-top: 10rem !important;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/* styles for service page */
+.cooking-comp, .delivery{
+    background-color: rgb(245, 207, 101) !important; 
+}
